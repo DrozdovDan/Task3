@@ -1,0 +1,36 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4ba5c67b_002D1bc2_002D4d11_002Dbdcc_002D5c1ea6eb675e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FullDeckTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.FullDeckTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.RoundWinnerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.RoundTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.Game2CardsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C65EA386-CCB0-48F7-96CA-F360547E5EEC::net6.0::Task2.Tests.AvailableFunctionsAmountTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C65EA386-CCB0-48F7-96CA-F360547E5EEC::net6.0::Task2.Tests.TabulateTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4d6650dc_002D1165_002D45b0_002D9648_002D6e25c70667e1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FullDeckTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.FullDeckTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.RoundWinnerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.RoundTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.Game2CardsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C65EA386-CCB0-48F7-96CA-F360547E5EEC::net6.0::Task2.Tests.AvailableFunctionsAmountTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C65EA386-CCB0-48F7-96CA-F360547E5EEC::net6.0::Task2.Tests.TabulateTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=79d92429_002D55d0_002D4079_002D8829_002Df17e0e0a448b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FullDeckTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.FullDeckTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.RoundWinnerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.RoundTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::62D6FB8C-2EFE-4A19-B5E2-2BAC6CA4C6D5::net6.0::Task1.Tests.Game2CardsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C65EA386-CCB0-48F7-96CA-F360547E5EEC::net6.0::Task2.Tests.AvailableFunctionsAmountTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C65EA386-CCB0-48F7-96CA-F360547E5EEC::net6.0::Task2.Tests.TabulateTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cbef5817_002Db7d5_002D4401_002D8884_002De42b48c1d1ae/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TabulateTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C65EA386-CCB0-48F7-96CA-F360547E5EEC::net6.0::Task2.Tests.TabulateTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
