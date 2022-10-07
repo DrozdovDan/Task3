@@ -138,15 +138,30 @@ namespace Task1
         {
             Player? winner;
             Table table = new Table();
+            var c = 0;
             do
             {
-                Card card1 = hands[Player.Player1][0];
-                Card card2 = hands[Player.Player2][0];
-                table.Add(card1);
-                table.Add(card2);
-                winner = RoundWinner(card1, card2);
-                hands[Player.Player1].Remove(card1);
-                hands[Player.Player2].Remove(card2);
+                if (c == 0)
+                {
+                    Card card1 = hands[Player.Player1][0];
+                    Card card2 = hands[Player.Player2][0];
+                    table.Add(card1);
+                    table.Add(card2);
+                    winner = RoundWinner(card1, card2);
+                    hands[Player.Player1].Remove(card1);
+                    hands[Player.Player2].Remove(card2);
+                }
+                else
+                {
+                    Card card1 = hands[Player.Player2][0];
+                    Card card2 = hands[Player.Player1][0];
+                    table.Add(card1);
+                    table.Add(card2);
+                    winner = RoundWinner(card2, card1);
+                    hands[Player.Player1].Remove(card2);
+                    hands[Player.Player2].Remove(card1);
+                }
+                c = (c + 1) % 2; 
             } while (winner == null && 0 < hands[Player.Player1].Count && 0 < hands[Player.Player2].Count);
 
             if (winner == null)
@@ -162,24 +177,27 @@ namespace Task1
 // Полный цикл игры (возвращается победивший игрок)
 // в процессе игры печатаются ходы
         internal static Player Game(Dictionary<Player, Hand> hands) {
+            var t = 1;
             while (hands[Player.Player1].Count > 0 && hands[Player.Player2].Count > 0)
             {
                 Tuple<Player, Table> afterRound = Round(hands);
+                Console.Write(t + " ");
                 foreach (var card in afterRound.Item2)
                 {
                     hands[afterRound.Item1].Add(card);
-                    Console.Write("[" + card.Rank + " " + card.Suit + "]" + "; ");
+                    Console.Write("[" + card.Rank + " " + card.Suit + "]; ");
                 }
 
-                Console.WriteLine();
+                Console.WriteLine("Won " + $"{afterRound.Item1};");
+                t += 1;
             }
 
             return hands[Player.Player1].Count > 0 ? Player.Player1 : Player.Player2;
         }
 
         public static void Main(string[] args)
-        {
-        var deck = FullDeck();
+        { 
+            var deck = FullDeck();
         var hands = Deal(deck);
         var winner = Game(hands);
             Console.WriteLine($"Победитель: {winner}");
